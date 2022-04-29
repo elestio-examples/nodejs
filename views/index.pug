@@ -1,0 +1,40 @@
+extends layout
+
+block content
+      header.app-header
+        img(src="/images/elestio-logo.svg", alt="logo",)
+
+      div.app-body
+        div.app-heading(style="margin-bottom: 40px;")
+          h1 Welcome to Elestio
+          h4 Deploy your apps quickly with the elestio CI/CD system
+        
+        p.app-info-block This Host
+          strong.subVal#host ?
+
+        p.app-info-block Your IP
+          strong.subVal#yourIP ?
+
+        p.app-info-block Your Location
+          strong.subVal#location ?
+
+        p.app-info-block Latency to server
+          strong.subVal#latency ? ms
+
+
+        div.app-deploy
+          a(href="http://dash.elest.io/" class="btn mb-10-m btn-try") Deploy on Elestio
+
+
+        div.area
+          ul.circles
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
+            li
