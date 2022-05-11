@@ -1,7 +1,7 @@
-# NodeJs example demo CI/CD pipeline
+# NodeJs Express Pug example demo CI/CD pipeline
 
 
-<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/nodejs"><img src="public\images\deploy-on-elestio.png" alt="Deploy on Elestio.io" width="180px" /></a>
+<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/nodejs-express-pug"><img src="public\images\deploy-on-elestio.png" alt="Deploy on Elestio.io" width="180px" /></a>
 
 Example application and CI/CD pipeline showing how to deploy a NodeJs website to elestio.
 
