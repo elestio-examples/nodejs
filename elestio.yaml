@@ -5,6 +5,7 @@ config:
     buildCommand: ''
     buildDir: ''
     runCommand: 'npm start'
+    installCommand: 'npm install'
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
