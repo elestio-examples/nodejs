@@ -6,6 +6,8 @@ config:
     buildDir: ''
     runCommand: 'npm start'
     installCommand: 'npm install'
+    icon: "public/images/nodejs.svg"
+    screenshot: "public/images/screenshot.jpg"
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
@@ -22,4 +24,7 @@ environments:
        value: 'production'
     -  key: 'PORT'
        value: '3000'
+webUI:
+  - url: "https://[CI_CD_DOMAIN]"
+    label: "Website"       
        
