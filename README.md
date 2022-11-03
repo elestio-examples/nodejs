@@ -8,6 +8,10 @@ Click on the button below to deploy this repository with CI/CD on Elestio:
 
 <img src="public\images\screenshot.jpg" alt="screenshot of the NodeJs app" width="100%" />
 
+
+To learn how to deploy a Node.js-Express-pug on the Elestio cloud, please refer to our tutorial [document](https://docs.elest.io/books/cicd-pipelines/page/how-to-deploy-nodejs-express-app-with-a-static-front-end-in-a-pug-on-elestio).
+
+
 # Steps to clone this repository and run locally
 
 
